@@ -1,1 +1,22 @@
-
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "description": "Discord music bot using discord.js and ytdl-core",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "music"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.15.0",
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.1.0",
+    "ytdl-core": "^4.11.0"
+  }
+}
